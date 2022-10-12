@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  transition: width 1s;
+  padding: 1rem;
+  background: rgb(168, 199, 248);
+  margin-bottom: 2rem;
+}
+.content {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: azure;
+}
+.form-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: azure;
+}
+.button {
+  margin-top: 1rem;
+  border-radius: .4rem;
+}
+.social-icon {
+  padding: 2rem 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: url(./image/sprite.png);
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 0.4rem;
+  float: left;
+  margin-left: 2rem;
+}
+.social-icon-facebook {
+  background-position: -22px -18px;
+}
+.social-icon-facebook:hover {
+  background-position: -22px -102px;
+}
+.social-icon-facebook:active {
+  background-position: -22px -184px;
+}
+.social-icon-youtube {
+  background-position: 62px -22px;
+}
+.social-icon-youtube:hover {
+  background-position: 62px -106px;
+}
+.social-icon-youtube:active {
+  background-position: 62px -190px;
+}
+.social-icon-twitter {
+  background-position: 231px -23px;
+}
+.social-icon-twitter:hover {
+  background-position: 231px -106px;
+}
+.social-icon-twitter:active {
+  background-position: 231px -190px;
+}
